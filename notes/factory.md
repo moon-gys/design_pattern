@@ -16,7 +16,7 @@
 UML图：
 
 **UML**
-<img="images/simple_factory.png" hight=450 length = 500>
+<img src="../images/simple_factory.png" hight=450 length = 500>
 
 **简单工厂模式的结构组成**
 1. 工厂类：工厂模式的核心类，会定义一个用于创建指定的具体实例对象的接口
@@ -38,7 +38,7 @@ simple_factory.cpp
 现各类鞋子抄的非常火热，于是为了大量生产每种类型的鞋子，则要针对不同品牌的鞋子开设独立的生产线，那么每个生产线就只能生产同类型品牌的鞋。
 
 **UML**
-<img="images/method_factory.png" hight=450 length = 500>
+<img src="../images/method_factory.png" hight=450 length = 500>
 
 **工厂方法模式的结构组成**
 1. 抽象工厂类：工厂方法模式的核心类，提供接口创建具体产品，有具体工厂类实现
@@ -63,7 +63,7 @@ method_factory.cpp
 鞋厂为了扩大了业务，不仅只生产鞋子，把运动品牌的衣服也一起生产了。
 
 **UML**
-<img="images/abstract_factory.png" hight=450 length = 500>
+<img src="../images/abstract_factory.png" hight=450 length = 500>
 
 **抽象模式的结构组成**
 1. 抽象工厂类：工厂方法模式的核心类，提供接口创建具体产品，有具体工厂类实现
@@ -93,7 +93,7 @@ abstract_factory.cpp
 针对工厂方法模式封装成模板工厂类，那么这样在新增产品时，是不需要新增具体的工厂类，减少了代码的编写量。
 
 **UML**
-<img="images/template_factory.png" hight=450 length = 500>
+<img src= "../images/template_factory.png" hight=450 length = 500>
 
 ### 5 产品注册类 + 单例工厂类
 
@@ -106,7 +106,7 @@ abstract_factory.cpp
 - 把获取产品对象的功能封装成工厂模板类。为了随时随地的获取指定产品对象，则把工厂设计成单例模式。
 
 **UML**
-<img="images/register_sigleton_factory.png" hight=450 length = 500>
+<img src="../images/register_sigleton_factory.png" hight=450 length = 500>
 
 **代码**
 register_singleton_factory.cpp
