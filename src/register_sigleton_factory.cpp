@@ -89,20 +89,20 @@ public:
 
 };
 
-int main()
-{
-	// ============ 生产耐克球鞋 ============= //
-   // 注册产品种类为Shoes（基类），产品为NiKe（子类）到工厂，产品名为nike
-	ProductRegister<Shoes, NikeShoes> nike_shoes_factory("nike");
-
-	// 从工厂获取产品种类为Shoes，名称为nike的产品对象
-	Shoes* p_nike_shoes = ProductFactory<Shoes>::get_instance().get_product_type("nike");
-	// 显示产品的广告语
-	p_nike_shoes->Show();
-	// 释放资源
-	if (p_nike_shoes)
-		delete p_nike_shoes;
-
-	return 0;
-
-}
+//int main()
+//{
+//	// ============ 生产耐克球鞋 ============= //
+//   // 注册产品种类为Shoes（基类），产品为NiKe（子类）到工厂，产品名为nike
+//	ProductRegister<Shoes, NikeShoes> nike_shoes_factory("nike");
+//
+//	// 从工厂获取产品种类为Shoes，名称为nike的产品对象
+//	Shoes* p_nike_shoes = ProductFactory<Shoes>::get_instance().get_product_type("nike");
+//	// 显示产品的广告语
+//	p_nike_shoes->Show();
+//	// 释放资源
+//	if (p_nike_shoes)
+//		delete p_nike_shoes;
+//
+//	return 0;
+//
+//}
