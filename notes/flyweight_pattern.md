@@ -22,3 +22,10 @@
  - Client
   - 维持一个对 Flyweight 的引用。
   - 计算或存储 Flyweight 的外部状态。
+  
+ ### UML
+ 
+ <img src="../images/flyweight_architecture.png" heigth=299 length=300>
+ 
+  
+ <img src="../images/flyweight_object.png" heigth=299 length=300>
